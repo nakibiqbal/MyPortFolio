@@ -1,0 +1,1972 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Bebas+Neue&family=Germania+One&family=Megrim&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Bebas+Neue&family=Germania+One&family=Megrim&family=Notable&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Bebas+Neue&family=Kumar+One&family=Revalia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#section1 {
+    background: linear-gradient(to bottom, #959595 0%, #959595 40%, #0F0F0F 40%, #0F0F0F 100%);
+    width: 100%;
+    height:100%;
+}
+
+
+/* home page start */
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 9vw;
+}
+/* div1 start */
+.div1 {
+    width: 60%;
+}
+.div1Child {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstLine h1,h2 {
+    display: inline;
+    color: #0F0F0F;
+}
+.firstLine h1 {
+    font-size: 6vw;
+    font-family: "Anton", sans-serif;
+}
+.secondLine h2 {
+    font-size: 2vw;
+    font-family: "Notable", sans-serif;
+    letter-spacing: 0.3vw;
+    line-height: 3vw;
+    color: #0F0F0F;
+    /* -webkit-text-stroke: 1vw #0F0F0F; */
+}
+.thirdLine {
+    overflow: hidden;
+}
+.thirdLine h5 {
+    color: #959595;
+    font-family: "Anton", sans-serif;
+    font-size: 1.6vw;
+    text-align: justify;
+    padding: 3vw 0vw;
+}
+
+.fourthLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.fourthLine span {
+    color: #959595;
+    font-family: 'Notable';
+    font-size: 2vw;
+}
+.fourthLine a {
+    color: #0F0F0F;
+    background: #959595;
+    font-size: 3vw;
+    padding: 0px 1vw;
+    transition: all 0.5s;
+    margin-left: 1vw;
+}
+.fourthLine a:hover {
+    color: #959595;
+    background: black;
+}
+
+/* div1 end */
+
+
+/* div2 start */
+.div2 {
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    align-items: center;
+}
+.div2Child {
+    width: 25vw;
+}
+.div2Child img {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1) brightness(0.8);
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+.div2Child img:hover {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(0) brightness(0.8);
+}
+/* div2 end */
+
+
+
+@media (max-width: 1081px) {
+    .container1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0vw 3vw;
+    }
+    /* div1 start */
+.div1 {
+    width: 100%;
+    text-align: center;
+}
+.div1Child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.firstLine h1,h2 {
+    display: inline;
+    color: #959595;
+}
+.firstLine h1 {
+    font-size: 7vw;
+    font-family: "Anton", sans-serif;
+}
+.secondLine{
+    padding: 1vw 0vw;
+}
+.secondLine h2 {
+    font-size: 2.7vw;
+    font-family: "Notable", sans-serif;
+    letter-spacing: 0.3vw;
+    line-height: 2vw;
+    color: #959595;
+    -webkit-text-stroke: 1vw #0F0F0F;
+}
+.thirdLine {
+    overflow: hidden;
+}
+.thirdLine h5 {
+    color: #959595;
+    font-family: "Anton", sans-serif;
+    font-size: 2vw;
+    padding: 1vw 5vw;
+    text-align: center;
+    line-height: 27px;
+}
+
+.fourthLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 50%;
+}
+.fourthLine span {
+    color: #959595;
+    font-family: 'Notable';
+    font-size: 2vw;
+}
+.fourthLine a {
+    color: #0F0F0F;
+    background: #959595;
+    font-size: 3vw;
+    padding: 0px 1vw;
+    transition: all 0.5s;
+    margin-left: 1vw;
+}
+.fourthLine a:hover {
+    color: #959595;
+    background: black;
+}
+
+/* div1 end */
+
+
+/* div2 start */
+.div2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.div2Child {
+    width: 25vw;
+    padding-top: 0vw;
+}
+.div2Child img {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1) brightness(0.8);
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.div2Child img:hover {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(0) brightness(0.8);
+    transform: scale(1);
+}
+/* div2 end */
+}
+
+
+@media (max-width: 765px) {
+    .container1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0vw 3vw;
+    }
+    /* div1 start */
+.div1 {
+    width: 100%;
+}
+.div1Child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.firstLine {
+    padding: 2vw 0vw;
+}
+.firstLine h1,h2 {
+    display: inline;
+    color: #0F0F0F;
+}
+.firstLine h1 {
+    font-size: 8vw;
+    font-family: "Anton", sans-serif;
+    color: #959595;
+}
+.secondLine{
+    padding: 1vw 0vw;
+}
+.secondLine h2 {
+    font-size: 3.7vw;
+    font-family: "Notable", sans-serif;
+    letter-spacing: 0.3vw;
+    line-height: 2vw;
+    color: #959595;
+    -webkit-text-stroke: 1vw #0F0F0F;
+}
+.thirdLine {
+    overflow: hidden;
+}
+.thirdLine h5 {
+    color: #959595;
+    font-family: "Anton", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 22px;
+    padding: 2vw 0vw;
+}
+
+.fourthLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.fourthLine span {
+    color: #959595;
+    font-family: 'Notable';
+    font-size: 3.5vw;
+}
+.fourthLine a {
+    color: #0F0F0F;
+    background: #959595;
+    font-size: 4.5vw;
+    padding: 0px 1vw;
+    transition: all 0.5s;
+    margin-left: 1vw;
+}
+.fourthLine a:hover {
+    color: #959595;
+    background: black;
+}
+
+/* div1 end */
+
+
+/* div2 start */
+.div2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.div2Child {
+    width: 32vw;
+}
+.div2Child img {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1) brightness(0.8);
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.div2Child img:hover {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(0) brightness(0.8);
+}
+/* div2 end */
+}
+
+
+@media (max-width: 545px) {
+    .container1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0vw 3vw;
+    }
+    /* div1 start */
+.div1 {
+    width: 100%;
+}
+.div1Child {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.firstLine {
+    padding: 2vw 0vw;
+}
+.firstLine h1,h2 {
+    display: inline;
+    color: #0F0F0F;
+}
+.firstLine h1 {
+    font-size: 10vw;
+    font-family: "Anton", sans-serif;
+    color: #959595;
+}
+.secondLine{
+    padding: 1vw 0vw;
+}
+.secondLine h2 {
+    font-size: 4vw;
+    font-family: "Notable", sans-serif;
+    letter-spacing: -3px;
+    line-height: 2vw;
+    color: #959595;
+    -webkit-text-stroke: 1vw #0F0F0F;
+}
+.thirdLine {
+    overflow: hidden;
+}
+.thirdLine h5 {
+    color: #959595;
+    font-family: "Anton", sans-serif;
+    font-size: 3.3vw;
+    line-height: 4.2vw;
+    text-align: center;
+    padding: 5vw 0vw;
+}
+
+.fourthLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.fourthLine span {
+    color: #959595;
+    font-family: 'Notable';
+    font-size: 3.5vw;
+}
+.fourthLine a {
+    color: #0F0F0F;
+    background: #959595;
+    font-size: 4.5vw;
+    padding: 0px 1vw;
+    transition: all 0.5s;
+    margin-left: 1vw;
+}
+.fourthLine a:hover {
+    color: #959595;
+    background: black;
+}
+
+/* div1 end */
+
+
+/* div2 start */
+.div2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.div2Child {
+    width: 43vw;
+}
+.div2Child img {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1) brightness(0.8);
+    transition: all 0.5s;
+    transform: scale(1);
+}
+.div2Child img:hover {
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(0) brightness(0.8);
+}
+/* div2 end */
+}
+
+
+/* home page end */
+
+
+/* skill section start */
+
+#section2 {
+    background: linear-gradient(to right, #959595 0%, #959595 40%, #0F0F0F 40%, #0F0F0F 100%);
+    width: 100%;
+    height: 90vh;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-image: url(6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.2;
+    filter: grayscale(1) blur(3px);
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    /* background-attachment: fixed; */
+}
+
+.skillDiv {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.skill1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.skill1 span {
+    font-family: "Anton", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.skill2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+.span1 {
+    width: 10rem;
+    height: 1rem;
+    background: rgba(0,0,0,0.3);
+}
+
+/* span2a */
+.span2a {
+    width: 0;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+.span2aActive {
+    width: 9rem;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+/* span2b */
+.span2b {
+    width: 0;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+.span2bActive {
+    width: 8.5rem;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+/* span2c */
+.span2c {
+    width: 0;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+.span2cActive {
+    width: 8rem;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+/* span2d */
+.span2d {
+    width: 0;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+.span2dActive {
+    width: 7rem;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+/* span2e */
+.span2e {
+    width: 0;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+.span2eActive {
+    width: 7.5rem;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+/* span2f */
+.span2f {
+    width: 0;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+.span2fActive {
+    width: 8rem;
+    height: 1rem;
+    background-color: #494949;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+
+
+
+
+
+
+
+@media (min-width : 505px) {
+    .wrapper {
+        background-image: url(6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        opacity: 0.2;
+        filter: grayscale(1) blur(3px);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    
+    .skillDiv {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .skill1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    .skill1 span {
+        font-family: "Anton", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .skill2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        width: 100%;
+    }
+    .span1 {
+        width: 12rem;
+        height: 1.5rem;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    /* span2a */
+    .span2a {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2aActive {
+        width: 11rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2b */
+    .span2b {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2bActive {
+        width: 10.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2c */
+    .span2c {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2cActive {
+        width: 9.7rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2d */
+    .span2d {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2dActive {
+        width: 8rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2e */
+    .span2e {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2eActive {
+        width: 7.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2f */
+    .span2f {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2fActive {
+        width: 9rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+}
+
+
+
+
+@media (min-width : 900px) {
+    .wrapper {
+        background-image: url(6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        opacity: 0.2;
+        filter: grayscale(1) blur(3px);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    
+    .skillDiv {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .skill1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-left: 10rem;
+    }
+    .skill1 span {
+        font-family: "Anton", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .skill2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        width: 100%;
+        margin-right: 12rem;
+    }
+    .span1 {
+        width: 20rem;
+        height: 1.5rem;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    /* span2a */
+    .span2a {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2aActive {
+        width: 18rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2b */
+    .span2b {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2bActive {
+        width: 16.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2c */
+    .span2c {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2cActive {
+        width: 15.7rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2d */
+    .span2d {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2dActive {
+        width: 14rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2e */
+    .span2e {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2eActive {
+        width: 12.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2f */
+    .span2f {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2fActive {
+        width: 15rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+}
+
+
+
+@media (min-width : 1150px) {
+    .wrapper {
+        background-image: url(6.jpg);
+        background-position: 0rem -5rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        opacity: 0.2;
+        filter: grayscale(1) blur(3px);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    
+    .skillDiv {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .skill1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-left: 15rem;
+    }
+    .skill1 span {
+        font-family: "Anton", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .skill2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        width: 100%;
+        margin-right: 16rem;
+    }
+    .span1 {
+        width: 25rem;
+        height: 1.5rem;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    /* span2a */
+    .span2a {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2aActive {
+        width: 23rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2b */
+    .span2b {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2bActive {
+        width: 21.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2c */
+    .span2c {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2cActive {
+        width: 20.7rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2d */
+    .span2d {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2dActive {
+        width: 17rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2e */
+    .span2e {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2eActive {
+        width: 16.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2f */
+    .span2f {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2fActive {
+        width: 19rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+}
+
+
+
+@media (min-width : 1250px) {
+    .wrapper {
+        background-image: url(6.jpg);
+        background-position: 0rem -15rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        opacity: 0.2;
+        filter: grayscale(1) blur(3px);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    
+    .skillDiv {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .skill1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-left: 18rem;
+    }
+    .skill1 span {
+        font-family: "Anton", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .skill2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        width: 100%;
+        margin-right: 20rem;
+    }
+    .span1 {
+        width: 25rem;
+        height: 1.5rem;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    /* span2a */
+    .span2a {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2aActive {
+        width: 23rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2b */
+    .span2b {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2bActive {
+        width: 21.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2c */
+    .span2c {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2cActive {
+        width: 20.7rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2d */
+    .span2d {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2dActive {
+        width: 17rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2e */
+    .span2e {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2eActive {
+        width: 16.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2f */
+    .span2f {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2fActive {
+        width: 19rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+}
+
+
+
+
+@media (min-width : 1350px) {
+    .wrapper {
+        background-image: url(6.jpg);
+        background-position: 0rem -18rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        opacity: 0.2;
+        filter: grayscale(1) blur(3px);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    
+    .skillDiv {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .skill1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin-left: 23rem;
+    }
+    .skill1 span {
+        font-family: "Anton", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .skill2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        width: 100%;
+        margin-right: 25rem;
+    }
+    .span1 {
+        width: 25rem;
+        height: 1.5rem;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    /* span2a */
+    .span2a {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2aActive {
+        width: 23rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2b */
+    .span2b {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2bActive {
+        width: 21.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2c */
+    .span2c {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2cActive {
+        width: 20.7rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2d */
+    .span2d {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2dActive {
+        width: 17rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2e */
+    .span2e {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2eActive {
+        width: 16.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2f */
+    .span2f {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2fActive {
+        width: 19rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+}
+
+
+@media (min-width : 1440px) {
+    .wrapper {
+        background-image: url(6.jpg);
+        background-position: 0rem -15rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+        opacity: 0.2;
+        filter: grayscale(1) blur(5px);
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+    }
+    
+    .skillDiv {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90vh;
+    }
+    
+    .skill1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 1rem;
+        width: 0%;
+    }
+    .skill1 span {
+        font-family: "Anton", sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .skill2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        width: 60%;
+        padding-right: 68rem;
+    }
+    .span1 {
+        width: 25rem;
+        height: 1.5rem;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    /* span2a */
+    .span2a {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2aActive {
+        width: 23rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2b */
+    .span2b {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2bActive {
+        width: 21.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2c */
+    .span2c {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2cActive {
+        width: 20.7rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2d */
+    .span2d {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2dActive {
+        width: 17rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2e */
+    .span2e {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2eActive {
+        width: 16.5rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    /* span2f */
+    .span2f {
+        width: 0;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+    .span2fActive {
+        width: 19rem;
+        height: 1.5rem;
+        background-color: #494949;
+        position: absolute;
+        transition: all 0.6s;
+    }
+}
+
+
+/* skill section end */
+
+
+
+/* service section start */
+
+#section3 {
+    background:  #0F0F0F ;
+    width: 100%;
+    height: 100vh;
+}
+.wrapper3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.divIcon1 {
+    width: 10%;
+    height: 100%;
+}
+
+.divIcon3 {
+    width: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+    font-size: 8vw;
+    padding: 1rem;
+}
+.divIcon3 i {
+    animation: rotate 1.5s infinite linear;
+    color: #959595;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.divIcon1 {
+    width: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    font-size: 8vw;
+    padding: 1rem;
+}
+.divIcon1 i {
+    animation: rotate 1.5s infinite linear;
+    color: #959595;
+}
+/* .divIcon1 i:hover {
+    animation: rotate 1s infinite linear;
+    color: white;
+    transition: all 1s;
+} */
+
+
+.divIcon2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.divIcon2Child {
+    width: 50vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1.front {
+    font-size: 6vw;
+    color: rgba(0,0,0,0.1);
+    font-family: 'Notable';
+    margin-left: -100%;
+    display: flex
+}
+h1.dev {
+    margin-left: auto;
+    font-family: 'Notable';
+    color:  rgba(0,0,0,0.1);
+    font-size: 5vw;
+    margin-right: -100%;
+    display: flex
+}
+
+@media (max-width: 752px) {
+    #section3 {
+        background: #0F0F0F;
+        width: 100%;
+        height: 90vh;
+    }
+    h1.front {
+        font-size: 7vw;
+        color: rgba(0,0,0,0.1);
+        font-family: 'Notable';
+        margin-left: -100%;
+        display: flex
+    }
+    h1.dev {
+        margin-left: auto;
+        font-family: 'Notable';
+        color:  rgba(0,0,0,0.1);
+        font-size: 6vw;
+        margin-right: -100%;
+        display: flex
+    }
+    .divIcon1 {
+        width: 15%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        overflow: hidden;
+        font-size: 9vw;
+        padding: 1rem;
+    }
+    .divIcon3 {
+        width: 15%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        overflow: hidden;
+        font-size: 9vw;
+        padding: 1rem;
+    }
+    
+}
+@media (max-width : 580px) {
+    #section3 {
+        background: #0F0F0F;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .wrapper3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .divIcon1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        overflow: hidden;
+        font-size: 20vw;
+        padding: 1rem;
+    }
+    .divIcon3 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+        overflow: hidden;
+        font-size: 20vw;
+        padding: 1rem;
+    } 
+    .divIcon2Child {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    h1.front {
+        font-size: 9vw;
+        color: rgba(0, 0, 0, 0.1);
+        font-family: 'Notable';
+        margin-left: -100%;
+        display: flex;
+    }
+    h1.dev {
+        font-family: 'Notable';
+        color: rgba(0, 0, 0, 0.1);
+        font-size: 7vw;
+        margin-right: -100%;
+        display: flex;
+    }
+}
+
+/* service section end */
+
+
+
+
+/* lastSection */
+#sectionLast {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    background: #0b0b0b;
+}
+
+.containerLast {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 10vw;
+}
+.lastImgSection {
+    width: 50%;
+    display: flex;
+    /* overflow: hidden; */
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    width: 26vw;
+    height: 35vw;
+    display: flex;
+    overflow: hidden;
+}
+.lastImgSection img{
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1) opacity(0.5);
+}
+img.imgClass {
+    transform: translateX(0vw);
+}
+.lastTextSection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastTextSection h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #b6b6b6;
+    font-size: 7vw;
+    letter-spacing: 5px;
+}
+.lastTextSection h3 {
+    font-family: "Bebas Neue", sans-serif;
+    color: #6a6a6a;
+    font-size: 3vw;
+    letter-spacing: 3px;
+}
+.lastTextSection h6{
+    font-family: "Bebas Neue", sans-serif;
+    color: #5f5e5e;
+    font-size: 2vw;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 1060px) {
+    .containerLast {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0vw 10vw;
+    }
+    .lastImgSection {
+        width: 50%;
+        display: flex;
+        /* overflow: hidden; */
+        justify-content: center;
+        align-items: center;
+    }
+    .inner {
+        width: 26vw;
+        height: 50vw;
+        display: flex;
+        overflow: hidden;
+    }
+    .lastImgSection img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: grayscale(1) opacity(0.5);
+    }
+    img.imgClass {
+        transform: translateX(0vw);
+    }
+    .lastTextSection{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lastTextSection h1 {
+        font-family: "Bebas Neue", sans-serif;
+        color: #b6b6b6;
+        font-size: 9vw;
+        letter-spacing: 5px;
+    }
+    .lastTextSection h3 {
+        font-family: "Bebas Neue", sans-serif;
+        color: #6a6a6a;
+        font-size: 5vw;
+        letter-spacing: 3px;
+    }
+    .lastTextSection h6{
+        font-family: "Bebas Neue", sans-serif;
+        color: #5f5e5e;
+        font-size: 3vw;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 766px) {
+    .containerLast {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lastImgSection {
+        width: 100%;
+        display: flex;
+        /* overflow: hidden; */
+        justify-content: center;
+        align-items: center;
+    }
+    .inner {
+        width: 26vw;
+        height: 40vw;
+        display: flex;
+        overflow: hidden;
+    }
+    .lastImgSection img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: grayscale(1) opacity(0.5);
+    }
+    img.imgClass {
+        transform: translateX(0vw);
+    }
+    .lastTextSection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lastTextSection h1 {
+        font-family: "Bebas Neue", sans-serif;
+        color: #b6b6b6;
+        font-size: 9vw;
+        letter-spacing: 5px;
+    }
+    .lastTextSection h3 {
+        font-family: "Bebas Neue", sans-serif;
+        color: #6a6a6a;
+        font-size: 5vw;
+        letter-spacing: 3px;
+    }
+    .lastTextSection h6{
+        font-family: "Bebas Neue", sans-serif;
+        color: #5f5e5e;
+        font-size: 3vw;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+}
+
+
+@media (max-width: 565px) {
+    .containerLast {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lastImgSection {
+        width: 100%;
+        display: flex;
+        /* overflow: hidden; */
+        justify-content: center;
+        align-items: center;
+    }
+    .inner {
+        width: 26vw;
+        height: 60vw;
+        display: flex;
+        overflow: hidden;
+    }
+    .lastImgSection img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: grayscale(1) opacity(0.5);
+    }
+    img.imgClass {
+        transform: translateX(0vw);
+    }
+    .lastTextSection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lastTextSection h1 {
+        font-family: "Bebas Neue", sans-serif;
+        color: #b6b6b6;
+        font-size: 11vw;
+        letter-spacing: 5px;
+    }
+    .lastTextSection h3 {
+        font-family: "Bebas Neue", sans-serif;
+        color: #6a6a6a;
+        font-size: 7vw;
+        letter-spacing: 3px;
+    }
+    .lastTextSection h6{
+        font-family: "Bebas Neue", sans-serif;
+        color: #5f5e5e;
+        font-size: 5vw;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+}
